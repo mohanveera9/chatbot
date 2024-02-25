@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatbot Widget</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-68d4405d-b719-40d2-b62b-e1cb87d1c8ef" data-elfsight-app-lazy></div>
+
+<div id="chatbot-container" class="chatbot-container">
+    <div class="chatbot-header">
+        <h3>Chatbot</h3>
+        <button id="close-btn">&times;</button>
+    </div>
+    <div class="chatbot-content">
+      <div class="message received">
+          Hello! I am tom,Virtual Assistant how can you assist you?
+      </div>
+
+      <!-- Add more messages dynamically here -->
+  </div>
+    <div class="chatbot-footer input-wrapper">
+        <input type="text" name="text" class="input" placeholder="Type here...">
+        <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+    </div>
+</div>
+
+<button id="chatbot-trigger" ><img  class="mohan" src="https://fobi.io/icon.png"> </button>
+<script src="script.js"></script>
+</body>
+</html>
